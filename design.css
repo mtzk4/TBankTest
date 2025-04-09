@@ -1,0 +1,186 @@
+body {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 20px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstSlide {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    border-radius: 20px;
+    background-image: url('image/crisis-1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 768px;
+    width: 480px;
+}
+
+.secondSlide {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+    border-radius: 20px;
+    background-image: url('image/crisis-2.png');
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 768px;
+    width: 480px;
+}
+
+.thirdSlide {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+    border-radius: 20px;
+    background-image: url('image/crisis-3.png');
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 768px;
+    width: 480px;
+}
+
+.fourthSlide {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+    border-radius: 20px;
+    background-image: url('image/crisis-4.png');
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 768px;
+    width: 480px;
+}
+
+.fifthSlide {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+    border-radius: 20px;
+    background-image: url('image/crisis-5.png');
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 768px;
+    width: 480px;
+}
+
+.left {
+    width: 30px;
+    height: 30px;
+    background-image: url('image/left.png');
+    background-color: transparent;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
+
+.right {
+    width: 30px;
+    height: 30px;
+    background-image: url('image/right.png');
+    background-color: transparent;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
+
+.title {
+    font-family: montserrat, sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: black;
+    line-height: 1;
+}
+
+.text {
+    font-family: montserrat, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: black;
+}
+
+p1 {
+    margin-top: 15%;
+    margin-left: 10%;
+    line-height: 1.2;
+}
+
+p2 {
+    margin-left: 10%;
+    margin-top: 5%;
+    line-height: 1.2;
+}
+
+p3 {
+    margin-bottom: 3%;
+    margin-left: 10%;
+    line-height: 1.2;
+}
+
+p4 {
+    margin-bottom: 10%;
+    margin-left: 10%;
+    line-height: 1.2;
+}
+
+p5 {
+    margin-bottom: 3%;
+    margin-left: 10%;
+    line-height: 1.2;
+}
+
+p6 {
+    margin-bottom: 10%;
+    margin-left: 10%;
+    line-height: 1.2;
+}
+
+p7 {
+    margin-bottom: 3%;
+    margin-left: 10%;
+    line-height: 1.2;
+}
+
+p8 {
+    margin-bottom: 10%;
+    margin-left: 10%;
+    line-height: 1.2;
+}
+
+p9 {
+    margin-bottom: 3%;
+    margin-left: 10%;
+    line-height: 1.2;
+}
+
+p10 {
+    margin-bottom: 5%;
+    margin-left: 10%;
+    line-height: 1.2;
+}
+
+.yellowbtn {
+    background-color: #FFDD2C;
+    border: none;
+    border-radius: 20px;
+    height: 45px;
+    width: 150px;
+    font-family: montserrat, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    cursor: pointer;
+}
